@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
   site: "https://subramaniam-s17.github.io",
-  base: "/onelot"
+  base: "/onelot",
   integrations: [
     tailwind(),
     image({
